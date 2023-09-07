@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: end;
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inputSelect {
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.leftContainer, .rightContainer {
+  display: flex;
+  padding: 20px;
+  width: 30%;
+  flex-direction: column;
+  gap: 20px;
+  align-items: end;
+}
+
+select {
+  width: 100%;
+}
+
+.bigContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+select:active {
+  border: none;
+}
+
+select:focus {
+  border: none;
+}
+
+textarea {
+  width: 100% !important;
+  resize: vertical;
+  min-height: 200px;
+  border: 2px solid blue;
+}
+
+.translateButton {
+  width: 100%;
+  display: flex;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  max-width: fit-content;
+  justify-content: end;
+  cursor: pointer;
+}
